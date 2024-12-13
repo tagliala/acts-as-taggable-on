@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def using_sqlite?
   ActsAsTaggableOn::Utils.connection && ActsAsTaggableOn::Utils.connection.adapter_name == 'SQLite'
 end

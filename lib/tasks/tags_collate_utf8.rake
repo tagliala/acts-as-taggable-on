@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # These rake tasks are to be run by MySql users only, they fix the management of
 # binary-encoded strings for tag 'names'. Issues:
 # https://github.com/mbleigh/acts-as-taggable-on/issues/623

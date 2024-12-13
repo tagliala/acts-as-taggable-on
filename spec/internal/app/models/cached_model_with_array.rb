@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 if using_postgresql?
   class CachedModelWithArray < ActiveRecord::Base
     acts_as_taggable

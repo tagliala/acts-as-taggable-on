@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Company < ActiveRecord::Base
   acts_as_taggable_on :locations, :markets
 

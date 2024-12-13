@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 namespace :acts_as_taggable_on do
 
   namespace :sharded_db do

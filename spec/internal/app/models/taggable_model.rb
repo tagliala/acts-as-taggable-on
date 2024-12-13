@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class TaggableModel < ActiveRecord::Base
   acts_as_taggable
   acts_as_taggable_on :languages

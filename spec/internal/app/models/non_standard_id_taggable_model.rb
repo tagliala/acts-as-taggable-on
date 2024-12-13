@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class NonStandardIdTaggableModel < ActiveRecord::Base
   self.primary_key = :an_id
   acts_as_taggable

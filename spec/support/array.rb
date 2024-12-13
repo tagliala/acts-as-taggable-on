@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 unless [].respond_to?(:freq)
   class Array
     def freq

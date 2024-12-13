@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ActiveRecord::Schema.define version: 0 do
   create_table ActsAsTaggableOn.tags_table, force: true do |t|
     t.string :name
